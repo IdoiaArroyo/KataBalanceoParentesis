@@ -1,0 +1,8 @@
+
+public class Balanceo implements ContadorBalanceado{
+
+	public static void main(String[] args) {
+
+	}
+
+}

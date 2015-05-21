@@ -1,0 +1,8 @@
+
+public interface Balanceado {
+	
+	public boolean isBalanced(BalancedChar balancedChar );
+
+	
+
+}

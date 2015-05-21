@@ -1,0 +1,9 @@
+
+public interface ContadorBalanceado {
+	
+	public boolean isOpen(char cadena);
+	public boolean isClosed(char cadena);
+	public int getContador();
+	
+
+}

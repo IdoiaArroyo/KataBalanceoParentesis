@@ -1,0 +1,14 @@
+
+public class Balanceo implements Balanceado{
+
+	public static void main(String[] args) {
+
+	}
+
+	@Override
+	public boolean isBalanced(BalancedInput input) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+}
