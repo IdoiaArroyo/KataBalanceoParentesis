@@ -1,4 +1,4 @@
-public class BalanceableString implements BalanceableStream{
+public class BalanceableString extends BalanceableStream {
     private final String data;
 
     public BalanceableString(String input) {
@@ -15,18 +15,5 @@ public class BalanceableString implements BalanceableStream{
         return data.length();
     }
 
-    @Override
-    public boolean isBalanced() {
 
-        int count =0;
-
-        for (int i = 0; i < size(); i++) {
-            if (get(i).isClosed()) count--;
-            if (get(i).isOpen()) count++;
-
-            if (count<0) return false;
-        }
-
-        return 0 == count;
-    }
 }
