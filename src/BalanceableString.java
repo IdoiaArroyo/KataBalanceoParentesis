@@ -11,11 +11,16 @@ public class BalanceableString implements BalanceableStream{
     }
 
     @Override
+    public int size() {
+        return data.length();
+    }
+
+    @Override
     public boolean isBalanced() {
 
         int count =0;
 
-        for (int i = 0; i < data.length(); i++) {
+        for (int i = 0; i < size(); i++) {
             if (get(i).isClosed()) count--;
             if (get(i).isOpen()) count++;
 
